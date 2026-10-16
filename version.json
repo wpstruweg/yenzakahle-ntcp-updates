@@ -1,4 +1,4 @@
 {
-  "version": "1.0.2",
-  "notes": "Removed directors from the HTML report footer."
+  "version": "1.0.8",
+  "notes": "Updates since 1.0.1:\n\n• Removed the directors line from the HTML report footer.\n• Fixed bladder and lens maximum-dose checks incorrectly showing Not evaluable.\n• Added locally saved clinical goals under Settings, supplementing the built-in defaults.\n• Added a searchable OAR dropdown using structures common to the selected DVH files.\n• Simplified goal entry: click +, select an OAR and type an objective such as V30Gy<30%.\n• Added objective validation and support for <, <=, > and >= comparisons.\n• Fixed text-field focus and typing issues.\n• Reformatted HTML checks into compact clinical-goal tables grouped by structure.\n• Removed the Status column; results use green for met, red for not met and grey for not evaluable, with a colour legend.\n• Fixed summary counts and failure colours.\n\nBuilt-in default constraints and NTCP calculation models remain unchanged. Recalculate reports to apply the updates."
 }
